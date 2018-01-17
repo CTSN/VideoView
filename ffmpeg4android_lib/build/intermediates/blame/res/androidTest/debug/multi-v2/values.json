@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/roy/AndroidStudioProjects/TestVideo/ffmpeg4android_lib/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/roy/AndroidStudioProjects/TestVideo/ffmpeg4android_lib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,8,9,12,13,18,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,239,295,357,545,680,929,1057,1257,1457",
+                        "endLines": "2,3,4,5,7,8,11,12,17,22,26",
+                        "endColumns": "41,141,55,61,101,134,88,127,8,8,8",
+                        "endOffsets": "92,234,290,352,540,675,924,1052,1252,1452,1600"
+                    }
+                }
+            ]
+        }
+    ]
+}

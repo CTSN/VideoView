@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/image"
+        android:layout_height="160dp"
+        android:layout_width="90dp"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:text="录制短视频"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:text="压缩视频"/>
+
+    <ProgressBar android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Small"/>
+    <TextView
+        android:id="@+id/show"
+        android:gravity="center"
+        android:text="压缩后"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/imag2"
+        android:layout_height="160dp"
+        android:layout_width="90dp"
+        android:scaleType="fitXY"/>
+</LinearLayout>
